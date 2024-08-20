@@ -1,0 +1,86 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#display {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 75px;
+    height: 120px;
+    width: 480px;
+    background-color: black;
+    color: white;
+    font-size: 5em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#result {
+    margin-right: 36.5px;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-row {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: black;
+    width: 480px;
+}
+
+#bottom-button-row {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+button {
+    font-size: 3em;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#button-0 {
+    flex-grow: 1;
+}
+
+.operator-button {
+    background-color: rgb(255, 149, 0);
+    color: white;
+}
+
+#equal-button {
+    background-color: rgb(255, 149, 0);
+    color: white;
+}
+
+.function-button {
+    background-color: rgb(204, 204, 204);
+    color: black;
+}
+
+.number-button {
+    background-color: rgb(68, 68, 68);
+    color: white;
+}
+
+#dot-button {
+    background-color: rgb(68, 68, 68);
+    color: white;
+}
